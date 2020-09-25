@@ -5,9 +5,9 @@ import {Link} from 'react-router-dom';
 function Nav() {
   return (
      <nav>
-         <h1 className="name">
+         <div className="name">
              João Arteiro
-         </h1>
+         </div>
          <ul className="nav-links">
              <Link className="link" to='/about'>
              <li>About</li>

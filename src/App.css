@@ -1,24 +1,28 @@
 .App {
   text-align: center;
+  width: 100%;
+  margin: 0 auto;
   
 }
+
 
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 10vh;
-  background: rgb(51, 51, 51);
+  background: rgb(0, 96, 126);
   color: white;
 }
 
 .nav-links {
-  width: 50%;
+  width: 40%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   list-style: none;
   font-family: Montserrat;
+  padding-left: 30vh;
   
 }
 
@@ -38,24 +42,26 @@ overflow: hidden;
 .name {
   color: rgb(255, 255, 255);
   font-family: Montserrat;
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 
 .about-section {
   height: 50vh;
-  background: purple;
+  background: tomato;
 }
 
 .experience-section {
   height: 50vh;
-  background: rgb(47, 128, 0);
+  background: lightseagreen;
 }
 
 .projects-section {
   height: 50vh;
-  background: rgb(194, 27, 27);
+  background: rgb(255, 239, 168);
 }
 
 .contact-section {
   height: 50vh;
-  background: rgb(21, 198, 221);
+  background: #b0fda9;
 }
