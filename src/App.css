@@ -1,5 +1,61 @@
 .App {
   text-align: center;
+  
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(51, 51, 51);
+  color: white;
+}
+
+.nav-links {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  font-family: Montserrat;
+  
+}
+
+.link {
+
+color: rgb(177, 177, 177);
+text-decoration: none;
+overflow: hidden;
+}
+
+.link:hover {
+  color: rgb(255, 255, 255);
 }
 
 
+
+.name {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+}
+
+.about-section {
+  height: 50vh;
+  background: purple;
+}
+
+.experience-section {
+  height: 50vh;
+  background: rgb(47, 128, 0);
+}
+
+.projects-section {
+  height: 50vh;
+  background: rgb(194, 27, 27);
+}
+
+.contact-section {
+  height: 50vh;
+  background: rgb(21, 198, 221);
+}
