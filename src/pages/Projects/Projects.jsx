@@ -1,10 +1,15 @@
 import React from 'react';
+import '../../App.css'
 
 
 function Projects() {
   return (
-    <div className="projects-section" id="projects">
-      <h1>Projects page</h1>
+    <div className="App">
+      <div className="projects-section" id="projects">
+        <div className="title">
+          <h2>making oreo mousse</h2>
+          </div>
+      </div >
     </div>
   );
 }

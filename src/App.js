@@ -14,19 +14,22 @@ function App() {
     <Router>
       <div className="App">
         <Nav />
+        <About/>
+        <Experience/>
+        <Projects/>
+        <Contact/>
+
         <Switch>
           <Route path="/about" component={About} />
           <Route path="/experience" component={Experience} />
           <Route path="/projects" component={Projects} />
           <Route path="/contact" component={Contact} />
         </Switch>
-        <h2>This is the main page</h2>
-        <About/>
-        <Experience/>
-        <Projects/>
-        <Contact/>
+        
       </div>
     </Router>
+
+    
   
   );
 }

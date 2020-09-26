@@ -5,9 +5,7 @@ import {Link} from 'react-scroll';
 function Nav() {
   return (
      <nav>
-         <div className="name">
-             João Arteiro
-         </div>
+      
          <ul className="nav-links">
             <Link className="link"
                activeClass="active"
@@ -15,31 +13,34 @@ function Nav() {
                spy={true}
                smooth={true}
                offset={-70}
-               duration={700}
+               duration={800}
                >About</Link>
-                <Link className="link"
+
+              <Link className="link"
                activeClass="active"
                to="experience"
                spy={true}
                smooth={true}
                offset={-70}
-               duration={700}
+               duration={800}
                >Experience</Link>
-                <Link className="link"
+
+              <Link className="link"
                activeClass="active"
                to="projects"
                spy={true}
                smooth={true}
                offset={-70}
-               duration={700}
+               duration={800}
                >Projects</Link>
-                 <Link className="link"
+               
+              <Link className="link"
                activeClass="active"
                to="contact"
                spy={true}
                smooth={true}
                offset={-70}
-               duration={700}
+               duration={800}
                >Contact</Link>
          </ul>
      </nav>

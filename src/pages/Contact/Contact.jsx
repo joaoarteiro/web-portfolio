@@ -1,10 +1,14 @@
 import React from 'react';
-
+import '../../App.css'
 
 function Contact() {
   return (
-    <div className="contact-section" id="contact">
-      <h1>Contact page</h1>
+    <div className="App">
+      <div className="contact-section" id="contact">
+        <div className="title">
+          <h2>feel free to stalk me here</h2>
+          </div>
+      </div >
     </div>
   );
 }

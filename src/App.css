@@ -2,69 +2,115 @@
   text-align: center;
   width: 100%;
   margin: 0 auto;
-  
+
 }
 
 
 nav {
   display: flex;
-  top: 0;
-  width: 100%;
   position: fixed;
+  width: 100%;
   justify-content: space-around;
   align-items: center;
-  min-height: 10vh;
-  background: rgb(0, 96, 126);
+  min-height: 13vh;
+  background: rgb(46, 46, 46);
   color: white;
 }
 
 .nav-links {
-  width: 40%;
+  width: 45%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   list-style: none;
-  font-family: Montserrat;
-  padding-left: 30vh;
+  font-family: Roboto;
+  font-weight: 500;
   
 }
 
 .link {
 
-color: rgb(177, 177, 177);
+color: rgb(209, 209, 209);
 text-decoration: none;
 overflow: hidden;
+font-family: Roboto;
+-o-transition: .6s;
+-ms-transition: .6s;
+-moz-transition: .6s;
+-webkit-transition: .6s;
+transition: .6s;
 }
 
 .link:hover {
-  color: rgb(255, 255, 255);
+  color: rgb(255, 187, 0);
 }
 
-
-
-.name {
-  color: rgb(255, 255, 255);
-  font-family: Montserrat;
-  font-weight: 600;
-  font-size: 1.5rem;
-}
 
 .about-section {
-  height: 50vh;
-  background: tomato;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  height: 60vh;
+  margin:0 auto;
+  padding: 0;
+  background: rgb(46, 46, 46);
 }
 
 .experience-section {
-  height: 50vh;
-  background: lightseagreen;
+  display: flex;
+  margin: 0;
+  align-items: center;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  height: 70vh;
+  background: rgb(255, 255, 255);
 }
 
 .projects-section {
-  height: 50vh;
-  background: rgb(255, 239, 168);
+  display: flex;
+  margin: 0;
+  align-items: center;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  height: 70vh;
+  margin: 0 auto;
+  padding: 0;
+  background: rgb(255, 255, 255);
 }
 
 .contact-section {
-  height: 50vh;
-  background: #b0fda9;
+  display: flex;
+  top: 0;
+  margin: 0;
+  align-items: center;
+  padding: 0;
+  width: 100%; 
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  height: 70vh;
+  background: rgb(255, 255, 255);
+}
+
+.title-about {
+  text-align: left;
+  padding-left: 10vh;
+  font-family: Roboto;
+  color: white;
+}
+
+.title {
+  margin: 0 auto;
+  color: rgb(46, 46, 46);
+}
+
+.yellow-text {
+  color: rgb(255, 187, 0);
 }
