@@ -7,8 +7,8 @@ function Experience() {
     <div className="App">
     <div className="experience-section" id="experience">
       <div className="title">
-        <h1>A LOT</h1>
-          <h6>not really</h6>
+        <h1>EXPERIENCE</h1>
+          <div className="text"><h5>Android Developer</h5></div>
         </div>
     </div >
   </div>

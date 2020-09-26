@@ -7,7 +7,7 @@ function Projects() {
     <div className="App">
       <div className="projects-section" id="projects">
         <div className="title">
-          <h2>making oreo mousse</h2>
+          <h1>PROJECTS</h1>
           </div>
       </div >
     </div>

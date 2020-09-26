@@ -6,7 +6,7 @@ function Contact() {
     <div className="App">
       <div className="contact-section" id="contact">
         <div className="title">
-          <h2>feel free to stalk me here</h2>
+          <h1>CONTACTS</h1>
           </div>
       </div >
     </div>
