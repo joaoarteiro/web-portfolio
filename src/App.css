@@ -13,8 +13,8 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 12vh;
-  background: rgb(46, 46, 46);
   color: white;
+  background-color: rgb(8, 8, 8);
 }
 
 .nav-links {
@@ -33,31 +33,35 @@ nav {
 color: rgb(209, 209, 209);
 text-decoration: none;
 overflow: hidden;
-font-family: Roboto;
--o-transition: .6s;
--ms-transition: .6s;
--moz-transition: .6s;
--webkit-transition: .6s;
-transition: .6s;
+font-family: 'Nunito', sans-serif;
+font-weight: 900;
+-o-transition: .7s;
+-ms-transition: .7s;
+-moz-transition: .7s;
+-webkit-transition: .7s;
+transition: .7s;
 }
 
 .link:hover {
-  color: rgb(255, 187, 0);
+  color: rgb(255, 153, 0);
 }
 
 
 .about-section {
   display: flex;
   margin: 0;
-  padding: 0;
+  padding: 10vh;
   width: 100%;
   align-items: center;
   text-align: center;
-  height: 60vh;
+  height: 100vh;
   margin:0 auto;
   padding: 0;
-  background: rgb(46, 46, 46);
+  background: url("./pages/About/laptop-image.jpg");
+  background-size: cover;
+ 
 }
+
 
 .experience-section {
   display: flex;
@@ -99,25 +103,35 @@ transition: .6s;
   background: rgb(255, 255, 255);
 }
 
+
 .title-about {
+  display: inline;
   text-align: left;
-  padding-left: 10vh;
-  font-family: Roboto;
+  margin: 10vh;
+  font-family: 'Nunito', sans-serif;
+  color: rgb(209, 209, 209);
+}
+
+.title-name {
+  font-family: 'Roboto', sans-serif;
   color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 2.2em;
 }
 
 .title {
+  font-family: 'Roboto', sans-serif;;
   text-align: left;
-  padding-left: 10vh;
+  margin: 10vh;
   color: rgb(46, 46, 46);
 }
 
 .text {
   text-align: left;
-  color: rgb(255, 187, 0);
+  color: rgb(255, 153, 0);
 
 }
 
 .yellow-text {
-  color: rgb(255, 187, 0);
+  color: rgb(255, 153, 0);
 }

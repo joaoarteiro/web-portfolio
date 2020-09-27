@@ -7,6 +7,7 @@ import Experience from './pages/Experience/Experience';
 import Projects from './pages/Projects/Projects';
 import Contact from './pages/Contact/Contact';
 
+
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 function App() {
@@ -18,7 +19,6 @@ function App() {
         <Experience/>
         <Projects/>
         <Contact/>
-
         <Switch>
           <Route path="/about" component={About} />
           <Route path="/experience" component={Experience} />
