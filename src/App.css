@@ -54,7 +54,7 @@ transition: .7s;
   width: 100%;
   align-items: center;
   text-align: center;
-  height: 100vh;
+  height: 80vh;
   margin:0 auto;
   padding: 0;
   background: url("./pages/About/laptop-image.jpg");
@@ -109,6 +109,7 @@ transition: .7s;
   text-align: left;
   margin: 10vh;
   font-family: 'Nunito', sans-serif;
+  font-size: 1.2em;
   color: rgb(209, 209, 209);
 }
 
@@ -116,7 +117,8 @@ transition: .7s;
   font-family: 'Roboto', sans-serif;
   color: rgb(255, 255, 255);
   font-weight: 700;
-  font-size: 2.2em;
+  font-size: 2em;
+  
 }
 
 .title {
