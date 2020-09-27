@@ -54,7 +54,7 @@ transition: .7s;
   width: 100%;
   align-items: center;
   text-align: center;
-  height: 80vh;
+  height: 100vh;
   margin:0 auto;
   padding: 0;
   background: url("./pages/About/laptop-image.jpg");
