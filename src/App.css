@@ -7,6 +7,7 @@
 
 
 nav {
+  z-index: 1;
   display: flex;
   position: fixed;
   width: 100%;
@@ -60,6 +61,49 @@ transition: .7s;
   background: url("./pages/About/laptop-image.jpg");
   background-size: cover;
  
+}
+
+.arrow-down {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.arrow-down::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  margin: auto;
+  margin-top: 80vh;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-right: 3px solid white;
+  border-bottom: 3px solid white;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-animation: 3s arrow infinite ease;
+  animation: 3s arrow infinite ease;
+}
+
+@-webkit-keyframes arrow {
+  0%, 100% {
+    top: 50px;
+  }
+  50% {
+    top: 80px;
+  }
+}
+@keyframes arrow {
+  0%, 100% {
+    top: 50px;
+  }
+  50% {
+    top: 80px;
+  }
 }
 
 
