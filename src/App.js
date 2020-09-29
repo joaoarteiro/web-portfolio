@@ -19,6 +19,9 @@ function App() {
         <Experience/>
         <Projects/>
         <Contact/>
+        <footer>
+          @João Arteiro 2020
+          </footer>
         <Switch>
           <Route path="/about" component={About} />
           <Route path="/experience" component={Experience} />
