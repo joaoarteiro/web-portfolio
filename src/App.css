@@ -19,9 +19,9 @@ nav {
 }
 
 .nav-links {
-  width: 45%;
+  width: 35%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   list-style: none;
   font-family: Roboto;
@@ -30,7 +30,6 @@ nav {
 }
 
 .link {
-
 color: rgb(209, 209, 209);
 text-decoration: none;
 overflow: hidden;
@@ -108,16 +107,30 @@ transition: .7s;
 
 
 .experience-section {
-  display: flex;
-  margin: 0;
+  display: inline-block;
+  margin: 0 auto;
   align-items: center;
   padding: 0;
   width: 100%;
   text-align: center;
-  margin: 0 auto;
+  margin-top: 0vh;
   padding: 0;
   height: 70vh;
   background: rgb(255, 255, 255);
+}
+
+.experience-container {
+  width: 80%;
+  background: rgb(255, 255, 255);
+  margin: 10vh auto;
+  justify-content: space-evenly;
+  transition: all .6s ease-in-out;
+}
+
+
+.experience-container:hover{
+  transform: scale(1.07);
+  box-shadow: 5px 7.5px 7px #C7C7C7;
 }
 
 .projects-section {
@@ -166,17 +179,50 @@ transition: .7s;
 }
 
 .title {
-  font-family: 'Roboto', sans-serif;;
+  font-size: 1.3rem;
+  font-family: 'Roboto', sans-serif;
   text-align: left;
-  margin: 10vh;
-  color: rgb(46, 46, 46);
+  margin-left: 10vh;
+  color: rgb(209, 209, 209);
 }
 
-.text {
+.color-text {
+  margin-left: 10vh;
+  padding-bottom: 1vh;
+  padding-right: 2vh;
+  font-weight: 600;
+  font-family: 'Nunito', sans-serif;
   text-align: left;
   color: rgb(255, 153, 0);
 
 }
+
+.strong-title {
+  display: flex;
+  padding-bottom: 1vh;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  font-size: 1.5em;
+  margin-left: 10vh;
+  color: rgb(59, 59, 59);
+}
+
+.date-interval {
+  margin-left: 2vh;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+  color: rgb(126, 126, 126);
+}
+
+.description {
+  font-family: 'Nunito', sans-serif;
+  color: rgb(209, 209, 209);
+  text-align: left;
+  margin-left: 10vh;
+}
+
 
 .yellow-text {
   color: rgb(255, 153, 0);
