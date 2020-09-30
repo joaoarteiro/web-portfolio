@@ -9,32 +9,33 @@
 nav {
   z-index: 1;
   display: flex;
+  padding: 0;
   position: fixed;
   width: 100%;
   justify-content: space-around;
   align-items: center;
   min-height: 12vh;
   color: white;
-  background-color: rgb(8, 8, 8);
+  font-family: 'Nunito', sans-serif;
+  background-color: rgb(20, 20, 20);
 }
 
 .nav-links {
-  width: 35%;
+  width: 50%;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  list-style: none;
-  font-family: Roboto;
-  font-weight: 500;
+  justify-content: space-around;
   
 }
+
 
 .link {
 color: rgb(209, 209, 209);
 text-decoration: none;
+text-transform: uppercase;
 overflow: hidden;
-font-family: 'Nunito', sans-serif;
 font-weight: 900;
+font-size: 14px;
+letter-spacing: 2px;
 -o-transition: .7s;
 -ms-transition: .7s;
 -moz-transition: .7s;
@@ -50,7 +51,6 @@ transition: .7s;
 .about-section {
   display: flex;
   margin: 0;
-  padding: 10vh;
   width: 100%;
   align-items: center;
   text-align: center;
@@ -107,7 +107,7 @@ transition: .7s;
 
 
 .experience-section {
-  display: inline-block;
+  display: flexbox;
   margin: 0 auto;
   align-items: center;
   padding: 0;
@@ -115,11 +115,11 @@ transition: .7s;
   text-align: center;
   margin-top: 0vh;
   padding: 0;
-  height: 100vh;
   background: rgb(255, 255, 255);
 }
 
 .experience-container {
+  display: flexbox;
   width: 80%;
   background: rgb(255, 255, 255);
   margin: 10vh auto;
@@ -134,7 +134,7 @@ transition: .7s;
 }
 
 .projects-section {
-  display: inline-block;
+  display: flexbox;
   margin: 0 auto;
   align-items: center;
   padding: 0;
@@ -142,7 +142,6 @@ transition: .7s;
   text-align: center;
   margin-top: 0vh;
   padding: 0;
-  height: 100vh;
   background: rgb(255, 255, 255);
 }
 
@@ -165,7 +164,7 @@ transition: .7s;
 .contact-icons {
   display: flex;
   margin: 0 auto;
-  justify-content: space-evenly;
+  justify-content: space-around;
   width: 50%;
 }
 
@@ -226,6 +225,7 @@ transition: .7s;
 }
 
 .description {
+  display: flexbox;
   font-family: 'Nunito', sans-serif;
   color: rgb(35, 47, 62);
   text-align: left;
@@ -268,7 +268,58 @@ footer {
   color: rgb(255, 153, 0);
 }
 
-/* Facebook */
-.fa-facebook {
+.burger {
+  margin-left: 55vh;
+  display: none;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 2px;
+  background-color: cornsilk;
+  margin: 5px;
+}
+
+
+@media screen and (max-width:1024px){
+  .nav-links {
+    width: 65%;  
+  }
+}
+
+@media screen and (max-width:768px){
+  .App {
+    overflow-x: hidden;
+  }
+
+  .nav-links {
+    position: absolute;
+    right: 0px;
+    height: 88vh;
+    top: 9.3vh;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+
+  .burger {
+    display: block;
+  
+  }
+
+  .nav-active {
+    transform: translateX(0%);
+  }
+  .experience-container:hover{
+    transform: none;
+    transition: none;
+    box-shadow: none;
+    
+  }
   
 }

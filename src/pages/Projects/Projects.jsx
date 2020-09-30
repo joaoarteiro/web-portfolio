@@ -14,8 +14,7 @@ function Projects() {
             <div className="strong-title">E-commerce app
                <div className="date-interval">Sep 2020 - Present</div>
             </div>
-            <div className="description">aisjdilajsdiasjdajsodijasiodjaasdihasiodhasiodhoaihsdioauksdhaukshdasdaihsdoia<br/>
-                 aisdioahsiodhasiohdioashdioashdioahdioashdaishdaoishdaosihdoiashdoiashdioashdoianqww
+            <div className="description">Created an mobile application to manage ITSector's events such as meeting and gatherings, using a RESTful API, Google authentication and JetPack.<br/>     
             </div>
         </div>
         <div className="experience-container">
@@ -23,8 +22,7 @@ function Projects() {
             <div className="strong-title">Events managment
                <div className="date-interval">Mar 2020 - Jul 2020</div>
             </div>
-            <div className="description">aisjdilajsdiasjdajsodijasiodjaasdihasiodhasiodhoaihsdioauksdhaukshdasdaihsdoia<br/>
-                 aisdioahsiodhasiohdioashdioashdioahdioashdaishdaoishdaosihdoiashdoiashdioashdoianqww
+            <div className="description">Created an mobile application to manage ITSector's events such as meeting and gatherings, using a RESTful API, Google authentication and JetPack.<br/>     
             </div>
         </div>
         <div className="experience-container">
@@ -32,8 +30,7 @@ function Projects() {
             <div className="strong-title">Popular Movies app
                <div className="date-interval">Feb 2020 - Mar 2020</div>
             </div>
-            <div className="description">aisjdilajsdiasjdajsodijasiodjaasdihasiodhasiodhoaihsdioauksdhaukshdasdaihsdoia<br/>
-                 aisdioahsiodhasiohdioashdioashdioahdioashdaishdaoishdaosihdoiashdoiashdioashdoianqww
+            <div className="description">Created an mobile application to manage ITSector's events such as meeting and gatherings, using a RESTful API, Google authentication and JetPack.<br/>     
             </div>
         </div>
       </div >
