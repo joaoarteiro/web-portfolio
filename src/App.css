@@ -17,7 +17,7 @@ nav {
   min-height: 12vh;
   color: white;
   font-family: 'Nunito', sans-serif;
-  background-color: rgb(20, 20, 20);
+  background-color: rgb(8, 8, 8);
 }
 
 .nav-links {
@@ -187,11 +187,12 @@ transition: .7s;
 }
 
 .title {
-  font-size: 1.3rem;
-  font-family: 'Roboto', sans-serif;
+  
+  font-size: 1.1rem;
+  font-family: 'Nunito', sans-serif;
   text-align: left;
   margin-left: 10vh;
-  color: rgb(209, 209, 209);
+  color: rgb(126, 126, 126);
 }
 
 .color-text {
@@ -227,7 +228,7 @@ transition: .7s;
 .description {
   display: flexbox;
   font-family: 'Nunito', sans-serif;
-  color: rgb(35, 47, 62);
+  color: rgb(126, 126, 126);
   text-align: left;
   margin-left: 10vh;
 }
@@ -269,7 +270,7 @@ footer {
 }
 
 .burger {
-  margin-left: 55vh;
+  margin-left: 40vh;
   display: none;
   cursor: pointer;
 }
@@ -298,23 +299,27 @@ footer {
     right: 0px;
     height: 88vh;
     top: 9.3vh;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(8, 8, 8);
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30%;
+    width: 50%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
+   
+    
   }
 
   .burger {
     display: block;
   
   }
+.nav-links.show  {
+  transform: translateX(0%);
+  cursor: pointer;
+}
 
-  .nav-active {
-    transform: translateX(0%);
-  }
+
   .experience-container:hover{
     transform: none;
     transition: none;

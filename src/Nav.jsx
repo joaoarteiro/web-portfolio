@@ -1,12 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import {Link} from 'react-scroll';
 
 function Nav() {
+   const [isOpen, setOpen] = useState(false);
+
+   const showNav = () => {
+     setOpen(!isOpen);  
+     console.log(isOpen);
+   };
+
+   
+
   return (
+     
      <nav>
-        <ul className="nav-links">
-           
+        <ul className={`nav-links ${isOpen ? "show": ""}`}>
               <Link className="link"
                  activeClass="active"
                  to="about"
@@ -44,10 +53,11 @@ function Nav() {
               >Links</Link>
 
         </ul>
-        <div className="burger">
+        <div onClick={showNav} className="burger">
                  <div className="line1"></div>
-                 <div className="line1"></div>
-                 <div className="line1"></div>
+                 <div className="line2"></div>
+                 <div className="line3"></div>
+            
               </div>
 
      </nav>
