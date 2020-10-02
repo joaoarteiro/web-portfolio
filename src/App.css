@@ -120,9 +120,9 @@ transition: .7s;
 
 .experience-container {
   display: flexbox;
-  width: 90%;
+  width: 80%;
   background: rgb(255, 255, 255);
-  margin: 7vh auto;
+  margin: 10vh auto;
   justify-content: space-evenly;
   transition: all .6s ease-in-out;
 }
@@ -270,7 +270,7 @@ footer {
 }
 
 .burger {
-  margin-left: 50vh;
+  margin-left: 45vh;
   display: none;
   cursor: pointer;
 }
@@ -292,6 +292,23 @@ footer {
 @media screen and (max-width:768px){
   .App {
     overflow-x: hidden;
+  }
+
+  .title {
+  
+    font-size: 0.8rem;
+    font-family: 'Nunito', sans-serif;
+    text-align: left;
+    margin-left: 4vh;
+    color: rgb(126, 126, 126);
+  }
+  .experience-container {
+    display: flexbox;
+    width: 95%;
+    background: rgb(255, 255, 255);
+    margin: 6vh auto;
+    justify-content: space-evenly;
+    transition: all .6s ease-in-out;
   }
 
   .nav-links {
