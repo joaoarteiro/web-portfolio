@@ -120,9 +120,9 @@ transition: .7s;
 
 .experience-container {
   display: flexbox;
-  width: 80%;
+  width: 90%;
   background: rgb(255, 255, 255);
-  margin: 10vh auto;
+  margin: 7vh auto;
   justify-content: space-evenly;
   transition: all .6s ease-in-out;
 }
@@ -191,7 +191,7 @@ transition: .7s;
   font-size: 1.1rem;
   font-family: 'Nunito', sans-serif;
   text-align: left;
-  margin-left: 10vh;
+  margin-left: 7vh;
   color: rgb(126, 126, 126);
 }
 
@@ -270,7 +270,7 @@ footer {
 }
 
 .burger {
-  margin-left: 40vh;
+  margin-left: 50vh;
   display: none;
   cursor: pointer;
 }
