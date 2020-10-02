@@ -18,9 +18,8 @@ function Experience() {
             <div className="strong-title">Web Developer
                <div className="date-interval">Sep 2020 - Present</div>
             </div>
-            <div className="description">My first experience using React. This is web application for an internet package plan simulator.
-            New features are still being implemented<br/> 
-                 
+            <div className="description">This was my first experience using <b>React JS</b>. Started developing web application solutions as a freelancer. Greatly expanded my knowledge in HTML, CSS and <i>JavaScript</i>.
+
             </div>
         </div>
 
@@ -30,7 +29,13 @@ function Experience() {
             <div className="strong-title">Android Developer
                 <div className="date-interval">Feb 2020 - Jul 2020</div>
             </div>
-            <div className="description">Created an mobile application to manage ITSector's events such as meeting and gatherings, using a RESTful API, Google authentication and JetPack.<br/>     
+            <div className="description">Completed an android academy at ITSector, during which I was introduced to real work environment and learned how to use tools to manage a project's development, such as Azure DevOps and Git.<br/>   
+              <ul>
+                <li>Azure DevOps Server(TFS)</li>
+                <li>GitFlow workshop</li>
+                <li>Retrofit</li>
+                <li>Android JetPack</li>
+                </ul>  
             </div>
         </div>
       </div >
