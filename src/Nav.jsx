@@ -15,6 +15,9 @@ function Nav() {
   return (
      
      <nav>
+        <div className="logo">
+           <h4>João Arteiro</h4>
+           </div>
         <ul className={`nav-links ${isOpen ? "show": ""}`}>
               <Link className="link"
                  activeClass="active"

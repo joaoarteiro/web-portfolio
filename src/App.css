@@ -20,6 +20,10 @@ nav {
   background-color: rgb(8, 8, 8);
 }
 
+.logo {
+  display: none;
+
+}
 .nav-links {
   width: 50%;
   display: flex;
@@ -270,7 +274,7 @@ footer {
 }
 
 .burger {
-  margin-left: 45vh;
+  margin-left: 0vh;
   display: none;
   cursor: pointer;
 }
@@ -342,6 +346,15 @@ footer {
   .burger {
     display: block;
   
+  }
+
+  .logo {
+    color: rgb(209, 209, 209);
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    
   }
 .nav-links.show  {
   transform: translateX(0%);
