@@ -11,7 +11,7 @@ function Experience() {
     <div className="App">
       <div className="experience-section" id="experience">
         <div className="title">
-          <h1>EXPERIENCE</h1>
+          EXPERIENCE
         </div>
         <div className="experience-container">
             <div className="color-text">Freelancer</div>
@@ -23,6 +23,7 @@ function Experience() {
                  
             </div>
         </div>
+
 
         <div className="experience-container" onClick={openLink}>
             <div className="color-text">ITSector</div>

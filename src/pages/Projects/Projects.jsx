@@ -12,7 +12,7 @@ function Projects() {
     <div className="App">
       <div className="projects-section" id="projects">
         <div className="title">
-          <h1>PROJECTS</h1>
+          PROJECTS
           </div>
           <div className="experience-container">
             <div className="color-text">React Js | HTML</div>
