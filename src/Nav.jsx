@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import {Link} from 'react-scroll';
 
+
 function Nav() {
    const [isOpen, setOpen] = useState(false);
 
@@ -19,7 +20,7 @@ function Nav() {
            <h4>João Arteiro</h4>
            </div>
         <ul className={`nav-links ${isOpen ? "show": ""}`}>
-              <Link className="link"
+              <Link onClick={showNav} className="link"
                  activeClass="active"
                  to="about"
                  spy={true}
@@ -28,7 +29,7 @@ function Nav() {
                  duration={800}
               >About</Link>
 
-              <Link className="link"
+              <Link onClick={showNav} className="link"
                  activeClass="active"
                  to="experience"
                  spy={true}
@@ -37,7 +38,7 @@ function Nav() {
                  duration={800}
               >Experience</Link>
 
-              <Link className="link"
+              <Link onClick={showNav} className="link"
                  activeClass="active"
                  to="projects"
                  spy={true}
@@ -46,7 +47,7 @@ function Nav() {
                  duration={800}
               >Projects</Link>
 
-              <Link className="link"
+              <Link onClick={showNav} className="link"
                  activeClass="active"
                  to="contact"
                  spy={true}
@@ -60,7 +61,6 @@ function Nav() {
                  <div className="line1"></div>
                  <div className="line2"></div>
                  <div className="line3"></div>
-            
               </div>
 
      </nav>
