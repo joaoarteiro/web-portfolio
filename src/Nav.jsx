@@ -11,10 +11,7 @@ function Nav() {
      console.log(isOpen);
    };
 
-   
-
-  return (
-     
+  return (  
      <nav>
         <div className="logo">
            <h4>João Arteiro</h4>

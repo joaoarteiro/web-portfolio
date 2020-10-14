@@ -370,6 +370,11 @@ transition: .7s;
   cursor: pointer;
   }
 
+  .about-section {
+    background: url("./pages/About/laptop-small.png");
+    background-size: cover;
+  }
+
   .experience-container:hover{
     transform: none;
     transition: none;
