@@ -6,6 +6,11 @@ import theme from '../../theme'
 import Pdf from '../../../src/my_cv.pdf'
 
 function About() {
+
+  const openPdf = () => {
+    window.open(Pdf, "_blank")
+  };
+  
   return (
     <div className="App">
       <div className="about-section" id="about">
@@ -19,7 +24,7 @@ function About() {
           <br /> Want to know more about me? Click below!
           </h5>
           <ThemeProvider theme={theme}>
-            <Button href= {Pdf} target="_blank"
+            <Button onClick={openPdf}
             color= "primary"
             variant="contained"
             size= "small">

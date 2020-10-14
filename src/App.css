@@ -49,7 +49,7 @@ transition: .7s;
 }
 
 .link:hover {
-  color: rgb(255, 153, 0);
+  color: rgb(255, 152, 0);
 }
 
 
@@ -199,6 +199,7 @@ transition: .7s;
   font-family: 'Nunito', sans-serif;
   text-align: left;
   margin-left: 7vh;
+  margin-top: 2vh;
   color: rgb(126, 126, 126);
 }
 
@@ -209,7 +210,7 @@ transition: .7s;
   font-weight: 600;
   font-family: 'Nunito', sans-serif;
   text-align: left;
-  color: rgb(255, 153, 0);
+  color: rgb(255, 152, 0);
 
 }
 
@@ -242,18 +243,21 @@ transition: .7s;
 
 
 .yellow-text {
-  color: rgb(255, 153, 0);
+  color: rgb(255, 152, 0);
 }
 
-footer {
+.footer-section {
+  display: flex;
   width: 100%;
   margin: 0 auto;
-  min-height: 4vh;
-  font-size: 10px;
-  text-align: center;
-  font-weight: lighter;
-  color: rgb(209, 209, 209);
+  min-height: 5vh;
+  letter-spacing: 1px;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 8px;
   font-family: 'Nunito', sans-serif;
+  color: rgb(209, 209, 209);
   background-color: rgb(8, 8, 8);
 }
 
@@ -273,7 +277,7 @@ footer {
 
 /* Add a hover effect if you want */
 .fa:hover {
-  color: rgb(255, 153, 0);
+  color: rgb(255, 152, 0);
 }
 
 .burger {
@@ -303,6 +307,7 @@ footer {
 
   .link {
     font-size: 16px;
+    
   }
 
   .title-name {
@@ -319,6 +324,7 @@ footer {
     font-family: 'Nunito', sans-serif;
     text-align: left;
     margin-left: 4vh;
+    margin-top: 2vh;
     color: rgb(126, 126, 126);
   }
   .experience-container {
@@ -340,7 +346,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30%;
+    width: 40%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
     
@@ -369,6 +375,10 @@ footer {
     transition: none;
     box-shadow: none;
     
+  }
+
+  .contact-icons {
+    width: 70%;
   }
   
 }

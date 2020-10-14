@@ -9,6 +9,7 @@ import Contact from './pages/Contact/Contact';
 
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import Footer from './pages/Footer/Footer';
 
 function App() {
 
@@ -20,9 +21,7 @@ function App() {
         <Experience/>
         <Projects/>
         <Contact/>
-        <footer>
-          @João Arteiro 2020
-          </footer>
+        <Footer/>
         <Switch>
           <Route path="/about" component={About} />
           <Route path="/experience" component={Experience} />
