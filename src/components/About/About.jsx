@@ -4,12 +4,14 @@ import Button from '@material-ui/core/Button'
 import {ThemeProvider} from '@material-ui/core'
 import theme from '../../theme'
 import Pdf from '../../../src/my_cv.pdf'
+import {Link} from 'react-scroll';
 
 function About() {
 
   const openPdf = () => {
     window.open(Pdf, "_blank")
   };
+
   
   return (
     <div className="App">
@@ -34,7 +36,15 @@ function About() {
          
         </div>
       </div >
-      <div className="arrow-down"></div>
+      <Link className="arrow-down"
+                 activeClass="active"
+                 to="experience"
+                 spy={true}
+                 smooth={true}
+                 offset={-70}
+                 duration={800} >
+              
+      </Link>
     </div>
   );
 }

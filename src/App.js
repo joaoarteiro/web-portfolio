@@ -2,14 +2,14 @@ import React from 'react';
 import './App.css';
 
 import Nav from './Nav';
-import About from './pages/About/About';
-import Experience from './pages/Experience/Experience';
-import Projects from './pages/Projects/Projects';
-import Contact from './pages/Contact/Contact';
+import About from './components/About/About';
+import Experience from './components/Experience/Experience';
+import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
 
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-import Footer from './pages/Footer/Footer';
+import Footer from './components/Footer/Footer';
 
 function App() {
 

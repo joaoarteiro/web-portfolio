@@ -62,7 +62,7 @@ transition: .7s;
   height: 100vh;
   margin:0 auto;
   padding: 0;
-  background: url("./pages/About/laptop-image.jpg");
+  background: url("./components/About/laptop-image.jpg");
   background-size: cover;
  
 }
@@ -73,6 +73,7 @@ transition: .7s;
   width: 100%;
   margin: 0 auto;
   text-align: center;
+  cursor: pointer;
 
 }
 
@@ -371,7 +372,7 @@ transition: .7s;
   }
 
   .about-section {
-    background: url("./pages/About/laptop-small.png");
+    background: url("./components/About/laptop-small.png");
     background-size: cover;
   }
 
