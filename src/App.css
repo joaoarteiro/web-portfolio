@@ -24,11 +24,15 @@ nav {
   display: none;
 
 }
-.nav-links {
+.nav-bar {
   width: 50%;
   display: flex;
   justify-content: space-around;
-  
+}
+
+ul.nav-bar {
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -39,7 +43,7 @@ text-transform: uppercase;
 overflow: hidden;
 cursor: pointer;
 font-weight: 900;
-font-size: 14px;
+font-size: 16px;
 letter-spacing: 2px;
 -o-transition: .7s;
 -ms-transition: .7s;
@@ -180,7 +184,7 @@ transition: .7s;
 .title-about {
   display: inline;
   text-align: left;
-  margin: 10vh;
+  margin: 7vh;
   font-family: 'Nunito', sans-serif;
   font-size: 1.2em;
   color: rgb(209, 209, 209);
@@ -194,13 +198,11 @@ transition: .7s;
   
 }
 
-.title {
-  
+.title { 
   font-size: 2rem;
   font-family: 'Nunito', sans-serif;
   text-align: left;
-  margin-left: 7vh;
-  margin-top: 2vh;
+  margin: 7vh;
   color: rgb(126, 126, 126);
 }
 
@@ -296,7 +298,7 @@ transition: .7s;
 
 
 @media screen and (max-width:1024px){
-  .nav-links {
+  .nav-bar {
     width: 65%;  
   }
 }
@@ -307,8 +309,7 @@ transition: .7s;
   }
 
   .link {
-    font-size: 16px;
-    
+    font-size: 18px;
   }
 
   .title-name {
@@ -316,18 +317,16 @@ transition: .7s;
     color: rgb(255, 255, 255);
     font-weight: 700;
     font-size: 1.4em;
-    
   }
   
   .title {
-  
     font-size: 1.4rem;
     font-family: 'Nunito', sans-serif;
     text-align: left;
-    margin-left: 4vh;
-    margin-top: 2vh;
+    margin: 7vh;
     color: rgb(126, 126, 126);
   }
+
   .experience-container {
     display: flexbox;
     width: 95%;
@@ -335,27 +334,24 @@ transition: .7s;
     margin-top: 6vh;
     margin-right: 6vh;
     justify-content: space-evenly;
-   ;
   }
 
-  .nav-links {
+  .nav-bar {
     position: absolute;
     right: 0px;
-    height: 60vh;
+    height: 80vh;
     top: 9vh;
     background-color: rgb(8, 8, 8);
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 40%;
+    width: 35%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
-    
   }
 
   .burger {
     display: block;
-  
   }
 
   .logo {
@@ -363,13 +359,23 @@ transition: .7s;
     display: block;
     text-transform: uppercase;
     letter-spacing: 2px;
-    
   }
   
- .nav-links.show  {
+ .nav-bar.show  {
   transform: translateX(0%);
   cursor: pointer;
+ 
   }
+
+  .background-blur {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  }
+
+  ul {
+    padding-inline-start: 0px;
+  }
+
 
   .about-section {
     background: url("./components/About/laptop-small.png");
@@ -380,7 +386,6 @@ transition: .7s;
     transform: none;
     transition: none;
     box-shadow: none;
-    
   }
 
   .contact-icons {

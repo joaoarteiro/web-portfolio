@@ -8,15 +8,15 @@ function Nav() {
 
    const showNav = () => {
      setOpen(!isOpen);  
-     console.log(isOpen);
-   };
+     console.log(!isOpen);
+   }
 
   return (  
      <nav>
         <div className="logo">
            <h4>João Arteiro</h4>
            </div>
-        <ul className={`nav-links ${isOpen ? "show": ""}`}>
+         <ul className={`nav-bar ${isOpen ? "show": ""}`}>
               <Link onClick={showNav} className="link"
                  activeClass="active"
                  to="about"
