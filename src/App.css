@@ -309,7 +309,7 @@ transition: .7s;
   }
 
   .link {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .title-name {
@@ -339,13 +339,13 @@ transition: .7s;
   .nav-bar {
     position: absolute;
     right: 0px;
-    height: 80vh;
-    top: 9vh;
+    height: 88vh;
+    top: 12vh;
     background-color: rgb(8, 8, 8);
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 35%;
+    width: 50%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
   }
