@@ -309,8 +309,9 @@ transition: .7s;
 
   .link {
     font-size: 17px;
-    color: rgb(8, 8, 8);
+    color: rgb(209, 209, 209);
     margin-left: 15px;
+    margin-bottom: 60px;
   }
 
   .title-name {
@@ -342,7 +343,8 @@ transition: .7s;
     right: 0px;
     height: 88vh;
     top: 12vh;
-    background-color: rgba(255, 153, 0, 0.925);
+    justify-content: center;
+    background-color: rgba(8, 8, 8, 0.897);
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -373,8 +375,9 @@ transition: .7s;
     -webkit-filter: blur(8px);
   }
 
-  ul {
-    padding-inline-start: 0px;
+  ul.nav-bar.show {
+    margin: 0;
+    padding: 0;
   }
 
 
