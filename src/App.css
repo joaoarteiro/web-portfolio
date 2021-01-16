@@ -56,7 +56,6 @@ transition: .7s;
   color: rgb(255, 152, 0);
 }
 
-
 .about-section {
   display: flex;
   margin: 0;
@@ -310,6 +309,8 @@ transition: .7s;
 
   .link {
     font-size: 17px;
+    color: rgb(8, 8, 8);
+    margin-left: 15px;
   }
 
   .title-name {
@@ -341,11 +342,11 @@ transition: .7s;
     right: 0px;
     height: 88vh;
     top: 12vh;
-    background-color: rgb(8, 8, 8);
+    background-color: rgba(255, 153, 0, 0.925);
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 50%;
+    align-items: start;
+    width: 40%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
   }
@@ -364,7 +365,7 @@ transition: .7s;
  .nav-bar.show  {
   transform: translateX(0%);
   cursor: pointer;
- 
+  align-items: start;
   }
 
   .background-blur {
