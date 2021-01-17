@@ -54,7 +54,7 @@ function Nav() {
               >Links</Link>
 
         </ul>
-        <div onClick={showNav} className="burger">
+        <div onClick={showNav} className={`burger ${isOpen ? "toggle": ""}`}>
                  <div className="line1"></div>
                  <div className="line2"></div>
                  <div className="line3"></div>
