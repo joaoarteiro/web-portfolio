@@ -8,7 +8,6 @@ function Nav() {
 
    const showNav = () => {
      setOpen(!isOpen);  
-     console.log(!isOpen);
    }
 
   return (  
@@ -52,7 +51,6 @@ function Nav() {
                  offset={-70}
                  duration={800}
               >Links</Link>
-
         </ul>
         <div onClick={showNav} className={`burger ${isOpen ? "toggle": ""}`}>
                  <div className="line1"></div>
