@@ -5,7 +5,7 @@
 }
 
 body {
-  background: linear-gradient(0deg, rgba(133, 133, 133, 0.606) 0%, rgba(255,255,255,1) 20%);
+  background: linear-gradient(0deg, rgba(94,94,94,0.6057773451177346) 0%, rgba(255,255,255,1) 20%);
 
 }
 
@@ -325,6 +325,36 @@ transition: .7s;
     font-weight: 700;
     font-size: 1.4em;
   }
+
+  .color-text {
+    margin-left: 4vh;
+    padding-bottom: 1vh;
+    padding-right: 2vh;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    text-align: left;
+    color: rgb(255, 152, 0);
+  
+  }
+
+  .strong-title {
+    display: flex;
+    padding-bottom: 1vh;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-size: 1.5em;
+    margin-left: 4vh;
+    color: rgb(8, 8, 8);
+  }
+
+  .description {
+  display: flexbox;
+  font-family: 'Nunito', sans-serif;
+  color: rgb(126, 126, 126);
+  text-align: left;
+  margin-left: 4vh;
+  }
   
   .title {
     font-size: 1.4rem;
@@ -336,11 +366,13 @@ transition: .7s;
 
   .experience-container {
     display: flexbox;
-    width: 95%;
+    width: 80%;
     background: rgb(255, 255, 255);
-    margin-top: 6vh;
-    margin-right: 6vh;
+    margin: 6vh auto;
     justify-content: space-evenly;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   }
 
   .nav-bar {
