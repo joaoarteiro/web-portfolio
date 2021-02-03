@@ -131,7 +131,7 @@ transition: .7s;
   padding: 0;
 }
 
-.experience-section:first-of-type {
+#experience {
   background: url("components/Experience/worker-illustration.jpg");
   background-repeat: no-repeat;
 }
@@ -419,10 +419,16 @@ transition: .7s;
     width: 40%;
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .nav-bar .link {
+    -webkit-tap-highlight-color: transparent;
   }
 
   .burger {
     display: block;
+    -webkit-tap-highlight-color: transparent;
   }
 
   .logo {
