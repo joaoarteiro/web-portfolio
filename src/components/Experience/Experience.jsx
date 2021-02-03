@@ -13,6 +13,23 @@ function Experience() {
         <div className="title">
           EXPERIENCE
         </div>
+        <div className="experience-container" onClick={openLink}>
+            <div className="color-text">Glaucus Engineering, Kraków</div>
+            <div className="strong-title">Frontend Developer Intern
+                <div className="date-interval">Nov 2020 - Present</div>
+            </div>
+            <div className="description">Joined a small team of talented developers who introduced me to Vue 3 and Ionic. After a few introdutory projects, I had the opportunity to join the development team
+             in some company projects, starting with small bug-fix tasks and later implementing new features.<br/>
+             Example of used technologies:<br/>   
+              <ul>
+                <li>Vue 3, Vuex</li>
+                <li>Ionic</li>
+                <li>Sass</li>
+                <li>JavaScript</li>
+                <li>HTML5/CSS3</li>
+                </ul>  
+            </div>
+        </div>
         <div className="experience-container">
             <div className="color-text">Freelancer</div>
             <div className="strong-title">Web Developer
@@ -25,7 +42,7 @@ function Experience() {
 
 
         <div className="experience-container" onClick={openLink}>
-            <div className="color-text">ITSector</div>
+            <div className="color-text">ITSector, Portugal</div>
             <div className="strong-title">Android Developer
                 <div className="date-interval">Feb 2020 - Jul 2020</div>
             </div>

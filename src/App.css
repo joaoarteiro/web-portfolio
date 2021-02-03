@@ -5,7 +5,7 @@
 }
 
 body {
-  background: linear-gradient(0deg, rgba(94,94,94,0.6057773451177346) 0%, rgba(255,255,255,1) 20%);
+  background: linear-gradient(0deg, rgba(184, 184, 184, 0.606) 0%, rgba(255,255,255,1) 30%);
 
 }
 
@@ -89,11 +89,11 @@ transition: .7s;
   height: 15px;
   position: absolute;
   margin: auto;
-  margin-top: 80vh;
   top: 0;
   right: 0;
-  bottom: 0;
   left: 0;
+  bottom: 0;
+  margin-top: 80vh;
   border-right: 3px solid white;
   border-bottom: 3px solid white;
   -webkit-transform: rotate(45deg);
@@ -119,6 +119,7 @@ transition: .7s;
   }
 }
 
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 
 .experience-section {
   display: flexbox;
@@ -128,23 +129,32 @@ transition: .7s;
   width: 100%;
   text-align: center;
   padding: 0;
-  background: none;
+}
+
+.experience-section:first-of-type {
+  background: url("components/Experience/worker-illustration.jpg");
+  background-repeat: no-repeat;
 }
 
 .experience-container {
   display: flexbox;
-  width: 80%;
+  width: 70%;
   background-color: rgba(255, 255, 255, 0.8); 
   margin: 10vh auto;
+  padding: 20px;
   border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  backdrop-filter: blur(16px);
   justify-content: space-evenly;
-  transition: all .6s ease-in-out;
 }
 
+.experience-container:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
 
-.experience-container:hover{
-  transform: scale(1.03);
-  box-shadow: 5px 7.5px 7px #C7C7C7;
+.experience-container:first-of-type {
+  background-size: cover;
 }
 
 .projects-section {
@@ -197,7 +207,7 @@ transition: .7s;
   font-family: 'Roboto', sans-serif;
   color: rgb(255, 255, 255);
   font-weight: 700;
-  font-size: 2em;
+  font-size: 3em;
   
 }
 
@@ -206,6 +216,7 @@ transition: .7s;
   font-family: 'Nunito', sans-serif;
   text-align: left;
   margin: 7vh;
+  border-bottom: 1px solid black;
   color: rgb(126, 126, 126);
 }
 
@@ -300,6 +311,22 @@ transition: .7s;
   transition: all 0.3s ease;
 }
 
+.fade-in {
+  opacity: 0;
+  animation: fadeIn ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: 1.2s;
+  animation-delay: 0.3s;
+}
+
+.fade-in-slow {
+  opacity: 0;
+  animation: fadeIn ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+  animation-delay: 1.3s;
+}
+
 
 @media screen and (max-width:1024px){
   .nav-bar {
@@ -334,7 +361,6 @@ transition: .7s;
     font-family: 'Nunito', sans-serif;
     text-align: left;
     color: rgb(255, 152, 0);
-  
   }
 
   .strong-title {
@@ -346,6 +372,10 @@ transition: .7s;
     font-size: 1.5em;
     margin-left: 4vh;
     color: rgb(8, 8, 8);
+  }
+
+  .experience-section {
+    background: none;
   }
 
   .description {
@@ -371,8 +401,9 @@ transition: .7s;
     margin: 6vh auto;
     justify-content: space-evenly;
     padding: 10px;
-    border-radius: 3px;
+    border-radius: 6px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    pointer-events: none;
   }
 
   .nav-bar {
@@ -381,7 +412,7 @@ transition: .7s;
     height: 88vh;
     top: 12vh;
     justify-content: center;
-    background-color: rgba(8, 8, 8, 0.808);
+    background-color: rgb(8, 8, 8);
     display: flex;
     flex-direction: column;
     align-items: flex-start;

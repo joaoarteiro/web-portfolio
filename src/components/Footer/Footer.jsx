@@ -6,7 +6,7 @@ function Footer() {
     return(
 
         <div className= "footer-section">
-              @João Arteiro 2020
+              @João Arteiro 2021
         </div>
 
     );
