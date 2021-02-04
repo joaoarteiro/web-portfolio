@@ -18,7 +18,7 @@ function Experience() {
             <div className="strong-title">Frontend Developer Intern
                 <div className="date-interval">Nov 2020 - Present</div>
             </div>
-            <div className="description">Joined a small team of talented developers who introduced me to Vue 3 and Ionic. After a few introdutory projects, I had the opportunity to join the development team
+            <div className="description">Joined a small team of talented developers who introduced me to Vue 3 and Ionic. After a few introduction projects, I had the opportunity to join the development team
              in some company projects, starting with small bug-fix tasks and later implementing new features.<br/>
              Example of used technologies:<br/>   
               <ul>
