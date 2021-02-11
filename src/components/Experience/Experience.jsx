@@ -13,7 +13,7 @@ function Experience() {
         <div className="title">
           EXPERIENCE
         </div>
-        <div className="experience-container" onClick={openLink}>
+        <div className="experience-container">
             <div className="color-text">Glaucus Engineering, Kraków</div>
             <div className="strong-title">Frontend Developer Intern
                 <div className="date-interval">Nov 2020 - Present</div>

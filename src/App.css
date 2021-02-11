@@ -134,7 +134,7 @@ transition: .7s;
 #experience {
   background: url("components/Experience/worker-illustration.jpg");
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: right;
 }
 
 .experience-container {
@@ -180,7 +180,7 @@ transition: .7s;
   margin: 0 auto;
   padding: 0;
   height: 20vh;
-  background: rgb(19, 19, 19);
+  background: rgb(46, 46, 46);
 }
 
 .contact-icons {

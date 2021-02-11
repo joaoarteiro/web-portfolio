@@ -10,7 +10,6 @@ function Contact() {
           <a href="https://github.com/joaoarteiro" target="_blank" rel="noopener noreferrer" className="fa fa-github"> </a> 
           <a href="https://www.facebook.com/joao.bernardo.566/" target="_blank" rel="noopener noreferrer" className="fa fa-facebook"> </a>  
           <a href="mailto:joaoarteiro@gmail.com" className="fa fa-envelope"> </a>   
-          
         </div>
       </div >
     </div>
