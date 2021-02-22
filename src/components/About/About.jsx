@@ -29,7 +29,7 @@ function About() {
             <Button onClick={openPdf}
             color= "primary"
             variant="contained"
-            size= "small"
+            size= "large"
             className="fade-in-slow">
             Download CV
           </Button>

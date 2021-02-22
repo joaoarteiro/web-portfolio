@@ -35,8 +35,12 @@ function Experience() {
             <div className="strong-title">Web Developer
                <div className="date-interval">Sep 2020 - Present</div>
             </div>
-            <div className="description">This was my first experience using <b>React JS</b>. Started developing web application solutions as a freelancer. Greatly expanded my knowledge in HTML, CSS and <i>JavaScript</i>.
-
+            <div className="description">This was my first experience using <b>React JS</b>. Started developing web application solutions as a freelancer. I built this porfolio using React and I plan to add more features in the future.
+            <ul>
+                <li>Hooks</li>
+                <li>Redux</li>
+                <li>ES6</li>
+            </ul>  
             </div>
         </div>
 
