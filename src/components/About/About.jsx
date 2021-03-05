@@ -19,13 +19,12 @@ function About() {
       <div className="about-section" id="about">
         <div className="title-about">
           <div className="title-name">
-          <Typing speed={60}>
+          <Typing speed={65}>
             <Typing.Delay ms={300}/>
               <h1>Hi
               <Typing.Delay ms={1100}/>
                 , I'm <span className="yellow-text">João</span>.
                </h1>
-              
           </Typing>
           </div>
           <h4 className="fade-in-slow">I'm a software engineer living in Kraków, fascinated by computers since an early age.
