@@ -26,7 +26,6 @@ function Experience() {
                 <li>Ionic</li>
                 <li>Sass</li>
                 <li>JavaScript</li>
-                <li>HTML5/CSS3</li>
                 </ul>  
             </div>
         </div>

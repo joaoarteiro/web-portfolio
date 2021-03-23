@@ -13,7 +13,15 @@ function Projects() {
       <div className="projects-section" id="projects">
         <div className="title">
           PROJECTS
-          </div>
+        </div>
+        <div className="experience-container">
+            <div className="color-text">Vue 3 | Ionic</div>
+            <div className="strong-title">Air Quality
+               <div className="date-interval">Mar 2020 - Present</div>
+            </div>
+            <div className="description"> In progress
+            </div>
+        </div>
           <div className="experience-container">
             <div className="color-text">React JS | Node JS | HTML</div>
             <div className="strong-title">E-commerce app

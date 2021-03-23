@@ -19,7 +19,7 @@ function About() {
       <div className="about-section" id="about">
         <div className="title-about">
           <div className="title-name">
-          <Typing speed={65}>
+          <Typing speed={60}>
             <Typing.Delay ms={300}/>
               <h1>Hi
               <Typing.Delay ms={1100}/>
