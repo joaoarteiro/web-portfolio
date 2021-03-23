@@ -9,7 +9,6 @@ import Contact from './components/Contact/Contact';
 
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-import Footer from './components/Footer/Footer';
 
 function App() {
 
@@ -21,7 +20,6 @@ function App() {
         <Experience/>
         <Projects/>
         <Contact/>
-        <Footer/>
         <Switch>
           <Route path="/about" component={About} />
           <Route path="/experience" component={Experience} />

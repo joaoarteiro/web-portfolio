@@ -10,7 +10,11 @@ function Contact() {
           <a href="https://github.com/joaoarteiro" target="_blank" rel="noopener noreferrer" className="fa fa-github"> </a> 
           <a href="mailto:joaoarteiro@gmail.com" className="fa fa-envelope"> </a>   
         </div>
+        <div className="footer-section">
+        <p>&#169; 2021 João Arteiro</p>
+      </div>
       </div >
+      
     </div>
   );
 }
