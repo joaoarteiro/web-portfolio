@@ -3,11 +3,7 @@ import '../../App.css'
 
 
 function Projects() {
-  const itSector = "https://www.itsector.pt/en"
-  const popMovies = "https://github.com/joaoarteiro/popular_movies_app"
-  const openLink = value => () => {
-    window.open(value);  
-    }
+  
   return (
     <div className="App">
       <div className="projects-section" id="projects">
@@ -19,7 +15,7 @@ function Projects() {
             <div className="strong-title">Air Quality
                <div className="date-interval">Mar 2020 - Present</div>
             </div>
-            <div className="description"> In progress
+            <div className="description"> This is an web app that allows users to search the air quality index of any city in the world. Users can save favorite locations and quickly have info such as PPM2.5 and weather forecast.
             </div>
         </div>
           <div className="experience-container">
@@ -31,7 +27,7 @@ function Projects() {
               it's currently under development as new features are added.<br/>     
             </div>
         </div>
-        <div className="experience-container" onClick={openLink(itSector)} on>
+        <div className="experience-container">
             <div className="color-text">Java | Android | .NET | REST</div>
             <div className="strong-title">Events app
                <div className="date-interval">Mar 2020 - Jul 2020</div>
@@ -41,7 +37,7 @@ function Projects() {
               It features multi-users with <i>Google</i> authentication and controlled acess to the API.
             </div>
         </div>
-        <div className="experience-container" onClick={openLink(popMovies)}>
+        <div className="experience-container">
             <div className="color-text">Java | Android | REST</div>
             <div className="strong-title">Popular Movies app
                <div className="date-interval">Feb 2020 - Mar 2020</div>

@@ -154,6 +154,12 @@ transition: .7s;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
+.plus-link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
 .projects-section {
   display: flexbox;
   margin: 0 auto;
@@ -399,10 +405,6 @@ transition: .7s;
     color: rgb(8, 8, 8);
   }
 
-  #experience {
-    background: none;
-  }
-
   .description {
   display: flexbox;
   font-family: 'Nunito', sans-serif;
@@ -431,11 +433,15 @@ transition: .7s;
     pointer-events: none;
   }
 
+  .plus-link {
+    display:  none;
+  }
+
   .nav-bar {
     position: absolute;
     right: 0px;
-    height: 88vh;
-    top: 12vh;
+    height: 90vh;
+    top: 10vh;
     justify-content: center;
     background-color: rgb(8, 8, 8);
     display: flex;

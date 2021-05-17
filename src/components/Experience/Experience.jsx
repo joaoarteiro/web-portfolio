@@ -3,10 +3,11 @@ import '../../App.css'
 
 
 function Experience() {
-
-  const openLink = () => {
-    window.open("https://www.itsector.pt/en");
-  }
+  const itSector = "https://www.itsector.pt/en"
+  const glaucus = "https://glaucus-engineering.com/"
+  const openLink = value => () => {
+    window.open(value);  
+    }
   return (
     <div className="App">
       <div className="experience-section" id="experience">
@@ -28,6 +29,9 @@ function Experience() {
                 <li>JavaScript</li>
                 </ul>  
             </div>
+            <div className="plus-link">
+              <div className="fa fa-plus-circle" onClick={openLink(glaucus)}></div> 
+            </div>
         </div>
         <div className="experience-container">
             <div className="color-text">Freelancer</div>
@@ -44,7 +48,7 @@ function Experience() {
         </div>
 
 
-        <div className="experience-container" onClick={openLink}>
+        <div className="experience-container" >
             <div className="color-text">ITSector, Portugal</div>
             <div className="strong-title">Android Developer
                 <div className="date-interval">Feb 2020 - Jul 2020</div>
@@ -56,6 +60,9 @@ function Experience() {
                 <li>Retrofit</li>
                 <li>Android JetPack</li>
                 </ul>  
+            </div>
+            <div className="plus-link">
+              <div className="fa fa-plus-circle" onClick={openLink(itSector)}></div> 
             </div>
         </div>
       </div >
