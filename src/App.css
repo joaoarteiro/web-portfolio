@@ -405,6 +405,10 @@ transition: .7s;
     color: rgb(8, 8, 8);
   }
 
+  #experience {
+    background: none;
+  }
+
   .description {
   display: flexbox;
   font-family: 'Nunito', sans-serif;
