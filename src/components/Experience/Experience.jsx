@@ -3,7 +3,7 @@ import '../../App.css'
 
 
 function Experience() {
-  const itSector = "https://www.itsector.pt/en"
+  const itSector = "https://www.itsector.pt"
   const glaucus = "https://glaucus-engineering.com/"
   const openLink = value => () => {
     window.open(value);  
