@@ -11,12 +11,17 @@ function Contact() {
           <a href="mailto:joaoarteiro@gmail.com" className="fa fa-envelope"> </a>   
         </div>
         <div className="footer-section">
-        <p>&#169; 2021 João Arteiro</p>
+        <p>&#169; {getDate} João Arteiro</p>
       </div>
       </div >
       
     </div>
   );
+}
+
+const getDate = () => {
+  const currentYear = new Date().getFullYear();
+  return currentYear;
 }
 
 export default Contact;
