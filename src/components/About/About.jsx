@@ -19,16 +19,16 @@ function About() {
       <div className="about-section" id="about">
         <div className="title-about">
           <div className="title-name">
-          <Typing speed={60}>
+          <Typing speed={70}>
             <Typing.Delay ms={300}/>
-              <h1>Hi
-              <Typing.Delay ms={1100}/>
-                , I'm <span className="yellow-text">João</span>.
+              <h1>Hi!
+              <Typing.Delay ms={1200}/>
+              &nbsp;I'm <span className="yellow-text">João</span>.
                </h1>
           </Typing>
           </div>
-          <h4 className="fade-in-slow">I'm a software engineer living in Kraków, fascinated by computers since an early age.
-          <br /> I developed a love for programming, which granted me experience in mobile and web development.
+          <h4 className="fade-in-slow">I'm a software engineer from Portugal, fascinated by computers since an early age.
+          <br /> My experience as a developer is focused on the frontend of web applications.
           <br />
           <br /> Want to know more about me? Click below!
           </h4>
@@ -43,7 +43,7 @@ function About() {
           </ThemeProvider>    
         </div>
       </div >
-      <Link className="arrow-down"
+      <Link className="arrow-down fade-in-slowest"
                  activeClass="active"
                  to="experience"
                  spy={true}

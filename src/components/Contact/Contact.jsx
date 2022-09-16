@@ -2,6 +2,8 @@ import React from 'react';
 import '../../App.css'
 
 function Contact() {
+  const currentYear = new Date().getFullYear();
+  
   return (
     <div className="App">
       <div className="contact-section" id="contact">
@@ -11,17 +13,12 @@ function Contact() {
           <a href="mailto:joaoarteiro@gmail.com" className="fa fa-envelope"> </a>   
         </div>
         <div className="footer-section">
-        <p>&#169; {getDate} João Arteiro</p>
+        <p>&#169; {currentYear} João Arteiro</p>
       </div>
       </div >
       
     </div>
   );
-}
-
-const getDate = () => {
-  const currentYear = new Date().getFullYear();
-  return currentYear;
 }
 
 export default Contact;
